@@ -1,11 +1,12 @@
 {
   "name": "radios",
-  "version": "0.0.0",
-  "description": "enjoy",
-  "main": "index.js",
-  "bin": "bin/cli",
+  "version": "0.1.0",
+  "description": "Enjoy favorite radios in command line :)",
+  "main": "dist/radios.js",
+  "bin": "bin/cli 2>/dev/null",
   "scripts": {
-    "test": "bin/cli swiss-pop"
+    "build-watch": "node_modules/.bin/babel libs --out-dir dist --source-maps --watch",
+    "swiss-pop": "DEBUG=radios,radios:* bin/cli 2>/dev/null swiss-pop"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,11 @@
   },
   "homepage": "https://github.com/turingou/radios#readme",
   "dependencies": {
-    "player": "^0.4.1"
+    "colors": "^1.1.0",
+    "player": "0.5.0"
+  },
+  "devDependencies": {
+    "babel": "^5.2.17",
+    "debug": "^2.1.0"
   }
 }
