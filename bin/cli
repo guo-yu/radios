@@ -1,21 +1,3 @@
 #!/usr/bin/env node
 
-var Player = require('player')
-var radio = process.argv[2]
-
-var radios = {
-  'swiss-pop': 'http://stream.srg-ssr.ch/m/rsp/mp3_128'
-}
-
-if (!radios[radio])
-  throw new Error('Radio ' + radio + ' is not supported now :(')
-
-new Player(radios[radio])
-  .enable('stream')
-  .on('playing', function(song) {
-    console.log('Now playing:', radios[radio])
-  })
-  .on('error', function(err) {
-    console.log('Opps!', err)
-  })
-  .play()
+require('../dist/radios')()
