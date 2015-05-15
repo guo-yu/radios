@@ -1,6 +1,6 @@
 ## Radios ![NPM version](https://img.shields.io/npm/v/radios.svg?style=flat) 
 
-Enjoy :)
+Enjoy favorite radios in command line :)
 
 ### Installation
 ```bash
