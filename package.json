@@ -1,0 +1,35 @@
+{
+  "name": "radios",
+  "version": "0.0.0",
+  "description": "enjoy",
+  "main": "index.js",
+  "bin": "bin/cli",
+  "scripts": {
+    "test": "bin/cli swiss-pop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/turingou/radios.git"
+  },
+  "keywords": [
+    "radio",
+    "stream",
+    "player",
+    "music",
+    "mp3"
+  ],
+  "files": [
+    "bin",
+    "package.json",
+    "README.md"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/radios/issues"
+  },
+  "homepage": "https://github.com/turingou/radios#readme",
+  "dependencies": {
+    "player": "^0.4.1"
+  }
+}
