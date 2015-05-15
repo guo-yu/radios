@@ -24,6 +24,8 @@
   ],
   "files": [
     "bin",
+    "libs",
+    "dist",
     "package.json",
     "README.md"
   ],
