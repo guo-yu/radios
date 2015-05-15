@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Enjoy favorite radios in command line :)",
   "main": "dist/radios.js",
-  "bin": "bin/cli 2>/dev/null",
+  "bin": {
+    "radios": "bin/start.sh",
+    "radios-core": "bin/cli"
+  },
   "scripts": {
     "build-watch": "node_modules/.bin/babel libs --out-dir dist --source-maps --watch",
     "swiss-pop": "DEBUG=radios,radios:* bin/cli 2>/dev/null swiss-pop"
