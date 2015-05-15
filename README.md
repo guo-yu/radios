@@ -13,6 +13,10 @@ To open a radio:
 $ radios swiss-pop
 ```
 
+### Supported FM
+
+- `swiss-pop`: Radio Swiss Pop
+
 ### Contributing
 - Fork this repo
 - Clone your repo
