@@ -1,6 +1,6 @@
 {
   "name": "radios",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enjoy favorite radios in command line :)",
   "main": "dist/radios.js",
   "bin": {
